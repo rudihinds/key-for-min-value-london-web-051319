@@ -1,5 +1,5 @@
 
-def key_for_min(hash)
+def key_for_min_value(hash)
 new = hash.sort_by do |key, value|
   value 
 end
